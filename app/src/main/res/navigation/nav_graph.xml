@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/inicioFragment">
+
+    <!-- Fragmento de inicio -->
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="com.example.aplicacion_proyecto.Fragmentos.InicioFragment"
+        android:label="InicioFragment">
+        <action
+            android:id="@+id/action_inicioFragment_to_principalFragment"
+            app:destination="@id/principalFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/principalFragment"
+        android:name="com.example.aplicacion_proyecto.Fragmentos.PrincipalFragment"
+        android:label="PrincipalFragment2" />
+
+    <!-- Otros fragmentos -->
+    <fragment
+        android:id="@+id/fichasFragment"
+        android:name="com.example.aplicacion_proyecto.Fragmentos.FichasFragment"
+        android:label="FichasFragment" />
+
+    <fragment
+        android:id="@+id/productFragment"
+        android:name="com.example.aplicacion_proyecto.Fragmentos.ProductFragment"
+        android:label="ProductFragment" />
+
+    <fragment
+        android:id="@+id/carritoFragment"
+        android:name="com.example.aplicacion_proyecto.Fragmentos.CarritoFragment"
+        android:label="CarritoFragment" />
+
+</navigation>

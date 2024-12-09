@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/item_inicio"
+        android:icon="@drawable/baseline_other_houses_24"
+        android:title="Inicio"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/item_principal"
+        android:icon="@drawable/baseline_local_post_office_24"
+        android:title="Principal"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/item_fichas"
+        android:icon="@drawable/baseline_view_agenda_24"
+        android:title="Fichas"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/item_carrito"
+        android:icon="@drawable/baseline_shopping_cart_24"
+        android:title="Carrito"
+        app:showAsAction="ifRoom"/>
+</menu>

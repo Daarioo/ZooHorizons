@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Application_Project</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="inicio">Home</string>
+    <string name="carrito">Cart</string>
+    <string name="fichas">Records</string>
+    <string name="text1">Dogs</string>
+    <string name="text2">Cats</string>
+    <string name="text3">Small rodents</string>
+    <string name="text4">Aquarium fish</string>
+    <string name="text5">Birds</string>
+    <string name="text6">Reptiles</string>
+    <string name="precio">€0.00</string>
+    <string name="producto">Product</string>
+    <string name="a_adir">Add</string>
+    <string name="tipo_de_animal">Animal type</string>
+    <string name="fecha_de_adopci_n">Adoption date</string>
+    <string name="a_adir2">Add</string>
+    <string name="eliminar">Delete</string>
+    <string name="editar">Edit</string>
+    <string name="en_desarrollo">Developing</string>
+</resources>
